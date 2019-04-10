@@ -11,6 +11,8 @@ body {
     min-width: 980px;
     font-size: 13px;
     margin-top: 28px;
+    height: 90px;
+    border-bottom: solid 1px #ebebeb
 }
 
 .logo {
@@ -29,7 +31,7 @@ body {
 }
 
 .search {
-    width: 550px
+    width: 600px
 }
 
 .uh-right {
@@ -45,6 +47,60 @@ body {
     margin-left: 125px; 
 }
 
+.lh-right {
+    float: right;
+}
+
 .h-button {
     padding-right: 15px;
+    font-size: 13px;
+    color: #777777;
+}
+
+.results-body {
+    position: absolute;
+    margin-top: 70px;
+    width: 755px;
+}
+
+.stats {
+    margin-top: 28px;
+    margin-left: 160px;
+    color: #777777;
+    font-size: small;
+}
+
+.results-main {
+    width: 600px;
+    padding-left: 155px;
+}
+
+.r1, .r2, .r3, .h-button, .stats {
+    font-family: arial, sans-serif;
+}
+
+.r1 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #1a0dab;
+    margin: 0;
+}
+
+.r2 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #006621;
+    margin: 0;
+}
+
+.r3 {
+    font-size: small;
+    line-height: 1.54;
+    color: #545454;
+    margin: 0;
+    text-align: left;
+}
+
+.result {
+    margin-bottom: 30px;
 }
