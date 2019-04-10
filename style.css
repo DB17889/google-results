@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    min-width: 980px;
+    left: 0;
+    right: 0;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    min-width: 980px;
+    font-size: 13px;
+    margin-top: 28px;
+}
+
+.logo {
+    width: 98px;
+    height: 32px;
+}
+
+.upper-header, .lower-header {
+    margin-left: 28px;
+}
+
+.form {
+    position: absolute;
+    margin-left: 125px;
+    margin-top: -38px;
+}
+
+.search {
+    width: 550px
+}
+
+.uh-right {
+    float: right;
+    margin-right: 28px;
+}
+
+.lower-header {
+    margin-top: 12px;
+}
+
+.lh-left {
+    margin-left: 125px; 
+}
+
+.h-button {
+    padding-right: 15px;
+}
