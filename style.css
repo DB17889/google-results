@@ -5,6 +5,8 @@ body {
     right: 0;
 }
 
+/* HEADER */
+
 .header {
     position: absolute;
     width: 100%;
@@ -23,6 +25,8 @@ body {
 .upper-header, .lower-header {
     margin-left: 28px;
 }
+
+/* RESULTS HEADER */
 
 .form {
     position: absolute;
@@ -105,4 +109,57 @@ body {
     margin-bottom: 30px;
 }
 
-/*more to add*/
+/*TABLE*/
+
+table {
+    border-collapse: collapse;
+}
+
+table, tr, td {
+    border: 1px solid #ebebeb;
+    padding: 7px;
+    padding-left: 10px;
+    width: 600px;
+}
+
+.pa-footer {
+    margin: 4px 0 20px 0;
+    color: #545454;
+    display: block;
+    width: 600px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.pa-question {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.pa-header {
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    color: #808080;
+    padding: 15px 15px 10px;
+}
+
+.related-td, .related-tr, .related-table {
+    border: 0;
+}
+
+.related-td {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a0dab;
+}
+
+.related-table {
+    margin-left: -10px;
+}
+
+.related-header {
+    font-size: 18px;
+    font-family: arial, sans-serif;
+}
