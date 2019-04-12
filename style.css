@@ -195,7 +195,7 @@ table, tr, td {
 .content-wrap {
     overflow: auto;
     margin: auto;
-    padding-bottom: 1720px;
+    padding-bottom: 1800px;
 }
 
 .footer {
@@ -227,19 +227,11 @@ table, tr, td {
 
 
 .sign-in {
-
     border: 1px solid #4285f4;
-
     background-color: #4683ea;
-
     font-weight: bold;
-
     line-height: 28px;
-
     border-radius: 4px;
-
     color: white;
-
     width: 80px;
-
 }
